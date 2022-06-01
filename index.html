@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="main-component">
+    <header class="header__balance">
+      <div class="header--text">
+        <p class="header--text-balance">My balance</p>
+        <p class="header--text-amount">$921.48</p>
+      </div>
+      <img src="./images/logo.svg" alt="company logo" class="header-logo">
+    </header>
+
+    <section class="section__spending">
+      <p class="section__spending--title"><strong>Spending - Last 7 days</strong></p>
+
+      <div class="section__spending--table">
+        <div>
+          <canvas></canvas>
+          <p>mon</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>tue</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>wed</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>thu</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>fri</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>sat</p>
+        </div>
+        <div>
+          <canvas></canvas>
+          <p>sun</p>
+        </div>
+      </div>
+
+      <hr class="horizontal-line"/>
+
+      <div class="section__spending--footer">
+        <p class="section__spending--total">Total this month</p>
+        <div class="section__spending--numbers">
+          <p class="section__spending--numbers-amount">$478.33</p>
+          <div class="section__spending--percentage">
+            <p>+2.4%</p>
+            <p>from last month</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/BrayanL62">Loucher Brayan</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
