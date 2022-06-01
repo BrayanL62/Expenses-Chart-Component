@@ -130,6 +130,7 @@ body {
     position: relative;
     top: -23px;
     left: 18px;
+    color: #F8E9DD;
 }
 
 
@@ -266,17 +267,12 @@ body {
         margin-bottom: -10px;
     }
 
-    .section__spending--numbers {
-
-    }
-
     .section__spending--numbers-amount {
         font-size: 48px;
     }
     
     .section__spending--percentage {
         margin-top: 17px;
-        
     }
 
 
